@@ -768,7 +768,7 @@ function iw_bookings_user_monthlyview($args){
 		$year=$year+1;
 	}
 
-	if (($month < $aux_month) && ($year == $aux_year)) { $month = $aux_month;} //Minim month is current month 
+	// if (($month < $aux_month) && ($year == $aux_year)) { $month = $aux_month;} //Minim month is current month 
 
 	//Memoritzem un array amb els dies de la setmana
 	// Create an array with the days of the week
